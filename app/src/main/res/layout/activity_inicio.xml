@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView para mostrar una vista previa de la foto -->
+
+    <!-- EditText para ingresar el nombre de la foto -->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="287dp"
+        tools:src="@drawable/perro"/>
+
+    <EditText
+        android:id="@+id/ETNombreFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la Foto" />
+
+    <!-- Botón para hacer la foto -->
+    <Button
+        android:id="@+id/BTAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HACER FOTO" />
+</LinearLayout>
